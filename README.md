@@ -1,8 +1,7 @@
 # PA-PC_202231506_WahyuJanuarAlfian_E
-# Penjelasan Project Akhir (UAS) Pengolahan Citra Digital (Geometric Citra)
+Penjelasan Project Akhir (UAS) Pengolahan Citra Digital
 # 1. Fungsi untuk Menampilkan Gambar
-# Penjelasan Dari Menampilkan gambar:
-  
+## Penjelasan Dari Menampilkan gambar:
     def show_images(images, titles):
         plt.figure(figsize=(20, 20))
         for i in range(len(images)):
@@ -11,26 +10,17 @@
             plt.title(titles[i])
             plt.axis('off')
         plt.show()
-- Parameter:
-1. images : Daftar gambar yang akan ditampilkan.
-2. titles : Daftar judul untuk setiap gambar.
+### Parameter:
+• images : Daftar gambar yang akan ditampilkan.
+• titles : Daftar judul untuk setiap gambar.
 
-Tujuan: Fungsi ini bertujuan untuk menampilkan beberapa gambar dalam satu figure menggunakan Matplotlib.
-- Proses:
-1. Mengatur ukuran figure menjadi 20x20.
-2. Menggunakan subplot untuk mengatur tata letak gambar dalam grid 2x3.
-3. Mengubah format gambar dari BGR (format default OpenCV) ke RGB agar warna ditampilkan dengan benar.
-4. Menampilkan setiap gambar dengan judul masing-masing dan tanpa sumbu.
-
-# 2. Membaca Gambar:
-- Penjelasan Dari Kodingan:
-  
-image = cv2.imread('wahyu.jpg')
-
-• Tujuan: Membaca gambar dari file wahyu.jpg ke dalam variabel image .
-• Library yang Digunakan: OpenCV (cv2)
-
-![App Screenshot](wahyu.jpg)
+Tujuan: Fungsi ini bertujuan untuk menampilkan beberapa gambar dalam satu figure
+menggunakan Matplotlib.
+Proses:
+• Mengatur ukuran figure menjadi 20x20.
+• Menggunakan subplot untuk mengatur tata letak gambar dalam grid 2x3.
+• Mengubah format gambar dari BGR (format default OpenCV) ke RGB agar warna ditampilkan dengan benar.
+• Menampilkan setiap gambar dengan judul masing-masing dan tanpa sumbu.
 
 
 
