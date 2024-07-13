@@ -25,3 +25,5 @@ Tujuan: Fungsi ini bertujuan untuk menampilkan beberapa gambar dalam satu figure
 
 
 
+
+
