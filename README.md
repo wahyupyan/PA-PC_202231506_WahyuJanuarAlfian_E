@@ -10,17 +10,16 @@ Penjelasan Project Akhir (UAS) Pengolahan Citra Digital
             plt.title(titles[i])
             plt.axis('off')
         plt.show()
-### Parameter:
-• images : Daftar gambar yang akan ditampilkan.
-• titles : Daftar judul untuk setiap gambar.
+- Parameter:
+1. images : Daftar gambar yang akan ditampilkan.
+2. titles : Daftar judul untuk setiap gambar.
 
-Tujuan: Fungsi ini bertujuan untuk menampilkan beberapa gambar dalam satu figure
-menggunakan Matplotlib.
-Proses:
-• Mengatur ukuran figure menjadi 20x20.
-• Menggunakan subplot untuk mengatur tata letak gambar dalam grid 2x3.
-• Mengubah format gambar dari BGR (format default OpenCV) ke RGB agar warna ditampilkan dengan benar.
-• Menampilkan setiap gambar dengan judul masing-masing dan tanpa sumbu.
+- Tujuan: Fungsi ini bertujuan untuk menampilkan beberapa gambar dalam satu figure menggunakan Matplotlib.
+- Proses:
+1. Mengatur ukuran figure menjadi 20x20.
+2. Menggunakan subplot untuk mengatur tata letak gambar dalam grid 2x3.
+3. Mengubah format gambar dari BGR (format default OpenCV) ke RGB agar warna ditampilkan dengan benar.
+4. Menampilkan setiap gambar dengan judul masing-masing dan tanpa sumbu.
 
 
 
