@@ -27,7 +27,7 @@ Penjelasan Project Akhir (UAS) Pengolahan Citra Digital
 
 image = cv2.imread('wahyu.jpg')
 
-- Tujuan: Membaca gambar dari file HAIDIRUMAR.jpg ke dalam variabel image .
+- Tujuan: Membaca gambar dari file wahyu.jpg ke dalam variabel image .
 - Library yang Digunakan: OpenCV ( cv2 ).
 
 
