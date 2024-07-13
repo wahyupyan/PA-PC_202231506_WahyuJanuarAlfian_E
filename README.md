@@ -119,3 +119,5 @@ show_images(images, titles)
 judul masing-masing.
 
 ![App Screenshot](.screenshoot/all.jpg)
+
+# ~The End~
