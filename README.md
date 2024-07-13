@@ -38,6 +38,6 @@ image = cv2.imread('wahyu.jpg')
 original = image.copy()
 - Tujuan: Membuat salinan dari gambar asli dan menyimpannya ke dalam variabel original .
 
-![App Screenshot](./screenshots/original.jpg)
+![App Screenshot](./screenshot/original.jpg)
 
 
