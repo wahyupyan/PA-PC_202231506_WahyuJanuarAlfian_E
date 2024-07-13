@@ -30,6 +30,14 @@ image = cv2.imread('wahyu.jpg')
 - Tujuan: Membaca gambar dari file wahyu.jpg ke dalam variabel image .
 - Library yang Digunakan: OpenCV ( cv2 ).
 
+![App Screenshot](wahyu.jpg)
 
+
+# 3. Menyimpan Citra Asli:
+- Penjelasan:
+original = image.copy()
+- Tujuan: Membuat salinan dari gambar asli dan menyimpannya ke dalam variabel original .
+
+![App Screenshot](./screenshots/original.jpg)
 
 
