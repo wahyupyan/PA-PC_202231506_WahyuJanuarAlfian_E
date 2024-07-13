@@ -43,7 +43,7 @@ original = image.copy()
 ![App Screenshot](.screenshoot/original.jpg)
 
 # 4. Rotasi Gambar:
-- Penjelasan Dari Kodingan:
+- Penjelasan:
 
 (h, w) = original.shape[:2]
 center = (w // 2, h // 2)
@@ -61,7 +61,7 @@ rotated = cv2.warpAffine(original, matrix, (w, h))
 
 
 # 5. Mengubah Ukuran Gambar:
-Penjelasan Kodingan:
+Penjelasan:
 
 resized = cv2.resize(original, (int(w * 0.2), int(h * 0.4)))
 
@@ -71,7 +71,7 @@ resized = cv2.resize(original, (int(w * 0.2), int(h * 0.4)))
 ![App Screenshot](.screenshoot/resize.jpg)
 
 # 6. Memotong Gambar:
-Penjelasan Kodingan:
+Penjelasan:
 
 cropped = original[int(h * 0.20):int(h * 0.80), int(w * 0.20):int(w * 0.80)]
 
@@ -79,5 +79,39 @@ cropped = original[int(h * 0.20):int(h * 0.80), int(w * 0.20):int(w * 0.80)]
 
 ![App Screenshot](.screenshoot/cropped.jpg)
 
+# 7. Membalik Gambar:
+Penjelasan Kodingan:
 
+flipped = cv2.flip(original, 1)
+- Tujuan: Membalik gambar secara horizontal.
+- Proses: Menggunakan cv2.flip dengan parameter 1 untuk flip horizontal.
+
+![App Screenshot](.screenshoot/flip.jpg)
+
+# 8. Mentranslasi Gambar:
+Penjelasan Kodingan:
+
+tx, ty = 100, 50 # Translation distances
+translation_matrix = np.float32([[1, 0, tx], [0, 1, ty]])
+translated = cv2.warpAffine(original, translation_matrix, (w, h))
+
+- Tujuan: Mentranslasi (menggeser) gambar.
+- Proses:
+1. Menentukan jarak translasi dalam arah x ( tx ) dan y ( ty ).
+2. Membuat matriks translasi.
+3. Menerapkan transformasi translasi menggunakan cv2.warpAffine.
+
+![App Screenshot](.screenshoot/translated.jpg)
+
+
+# 9. Menampilkan Semua Gambar:
+Penjelasan Kodingan:
+
+images = [original, rotated, resized, cropped, flipped, translated]
+titles = ['Original', 'Rotated', 'Resized', 'Cropped', 'Flipped', 'Translated']
+show_images(images, titles)
+
+- Tujuan: Menyimpan semua gambar yang telah dimodifikasi ke dalam daftar images dan memberikan judul yang sesuai pada daftar titles .
+- Proses: Memanggil fungsi show_images untuk menampilkan gambar-gambar tersebut dengan
+judul masing-masing.
 
