@@ -3,7 +3,7 @@
 ## Penjelasan Project Akhir (UAS) Geometrix Pengolahan Citra Digital
 
 ### 1. Fungsi untuk Menampilkan Gambar
-- Penjelasan Dari Menampilkan gambar:
+#### Penjelasan Dari Menampilkan gambar:
 
     def show_images(images, titles):
         plt.figure(figsize=(20, 20))
