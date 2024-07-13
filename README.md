@@ -42,4 +42,33 @@ original = image.copy()
 
 ![App Screenshot](.screenshoot/original.jpg)
 
+# 4. Rotasi Gambar:
+- Penjelasan Dari Kodingan:
+
+(h, w) = original.shape[:2]
+center = (w // 2, h // 2)
+matrix = cv2.getRotationMatrix2D(center, 30, 1.0)
+rotated = cv2.warpAffine(original, matrix, (w, h))
+
+- Tujuan: Memutar gambar sebesar 30 derajat.
+- Proses:
+1. Mendapatkan dimensi gambar (tinggi dan lebar).
+2. Menentukan titik pusat rotasi.
+3. Membuat matriks rotasi menggunakan cv2.getRotationMatrix2D 
+4. Menerapkan transformasi rotasi pada gambar menggunakan cv2.warpAffine .
+
+![App Screenshot](.screenshoot/rotated.jpg)
+
+
+# 5. Mengubah Ukuran Gambar:
+Penjelasan Kodingan:
+
+resized = cv2.resize(original, (int(w * 0.2), int(h * 0.4)))
+
+1. Tujuan: Mengubah ukuran gambar menjadi 20% dari lebar asli dan 40% dari tinggi asli.
+2. Proses: Menggunakan cv2.resize untuk mengubah ukuran gambar.
+
+![App Screenshot](.screenshoot/resize.jpg)
+
+
 
