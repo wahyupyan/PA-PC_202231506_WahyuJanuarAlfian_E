@@ -70,5 +70,12 @@ resized = cv2.resize(original, (int(w * 0.2), int(h * 0.4)))
 
 ![App Screenshot](.screenshoot/resize.jpg)
 
+# 6. Memotong Gambar:
+Penjelasan Kodingan:
+
+cropped = original[int(h * 0.20):int(h * 0.80), int(w * 0.20):int(w * 0.80)]
+
+- Tujuan: Memotong bagian tengah gambar.• Proses: Menggunakan slicing untuk mengambil bagian gambar dari 20% hingga 80% dari tinggi dan lebar asli.
+
 
 
