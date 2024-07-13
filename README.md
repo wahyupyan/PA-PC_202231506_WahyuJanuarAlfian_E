@@ -24,9 +24,10 @@ Tujuan: Fungsi ini bertujuan untuk menampilkan beberapa gambar dalam satu figure
 
 # 2. Membaca Gambar:
 - Penjelasan Dari Kodingan:
-- 
+  
 image = cv2.imread('wahyu.jpg')
-• Tujuan: Membaca gambar dari file HAIDIRUMAR.jpg ke dalam variabel image .
+
+• Tujuan: Membaca gambar dari file wahyu.jpg ke dalam variabel image .
 • Library yang Digunakan: OpenCV (cv2)
 
 ![App Screenshot](wahyu.jpg)
