@@ -22,6 +22,11 @@ Tujuan: Fungsi ini bertujuan untuk menampilkan beberapa gambar dalam satu figure
 3. Mengubah format gambar dari BGR (format default OpenCV) ke RGB agar warna ditampilkan dengan benar.
 4. Menampilkan setiap gambar dengan judul masing-masing dan tanpa sumbu.
 
+2. Membaca Gambar:
+Penjelasan Dari Kodingan:
+image = cv2.imread('wahyu.jpg')
+• Tujuan: Membaca gambar dari file HAIDIRUMAR.jpg ke dalam variabel image .
+• Library yang Digunakan: OpenCV ( cv2
 
 
 
