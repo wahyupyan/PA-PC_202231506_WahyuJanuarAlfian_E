@@ -14,8 +14,7 @@ Penjelasan Project Akhir (UAS) Pengolahan Citra Digital
 1. images : Daftar gambar yang akan ditampilkan.
 2. titles : Daftar judul untuk setiap gambar.
 
-### Tujuan: Fungsi ini bertujuan untuk menampilkan beberapa gambar dalam satu figure
-menggunakan Matplotlib.
+Tujuan: Fungsi ini bertujuan untuk menampilkan beberapa gambar dalam satu figure menggunakan Matplotlib.
 - Proses:
 1. Mengatur ukuran figure menjadi 20x20.
 2. Menggunakan subplot untuk mengatur tata letak gambar dalam grid 2x3.
