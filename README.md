@@ -65,8 +65,8 @@ Penjelasan Kodingan:
 
 resized = cv2.resize(original, (int(w * 0.2), int(h * 0.4)))
 
-1. Tujuan: Mengubah ukuran gambar menjadi 20% dari lebar asli dan 40% dari tinggi asli.
-2. Proses: Menggunakan cv2.resize untuk mengubah ukuran gambar.
+- Tujuan: Mengubah ukuran gambar menjadi 20% dari lebar asli dan 40% dari tinggi asli.
+- Proses: Menggunakan cv2.resize untuk mengubah ukuran gambar.
 
 ![App Screenshot](.screenshoot/resize.jpg)
 
@@ -76,6 +76,8 @@ Penjelasan Kodingan:
 cropped = original[int(h * 0.20):int(h * 0.80), int(w * 0.20):int(w * 0.80)]
 
 - Tujuan: Memotong bagian tengah gambar.• Proses: Menggunakan slicing untuk mengambil bagian gambar dari 20% hingga 80% dari tinggi dan lebar asli.
+
+![App Screenshot](.screenshoot/cropped.jpg)
 
 
 
