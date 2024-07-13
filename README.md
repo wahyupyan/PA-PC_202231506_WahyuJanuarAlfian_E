@@ -1,2 +1,2 @@
 # PA-PC_202231506_WahyuJanuarAlfian_E
-UAS Pengolahan Citra Digital
+Penjelasan Project Akhir (UAS) Pengolahan Citra Digital
