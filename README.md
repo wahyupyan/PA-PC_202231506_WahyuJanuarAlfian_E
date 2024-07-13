@@ -35,9 +35,11 @@ image = cv2.imread('wahyu.jpg')
 
 # 3. Menyimpan Citra Asli:
 - Penjelasan:
+
 original = image.copy()
+
 - Tujuan: Membuat salinan dari gambar asli dan menyimpannya ke dalam variabel original .
 
-![App Screenshot](./screenshot/original.jpg)
+![App Screenshot](.screenshoot/original.jpg)
 
 
