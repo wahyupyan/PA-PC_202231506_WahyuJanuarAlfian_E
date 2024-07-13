@@ -117,3 +117,4 @@ show_images(images, titles)
 - Proses: Memanggil fungsi show_images untuk menampilkan gambar-gambar tersebut dengan
 judul masing-masing.
 
+![App Screenshot](.screenshoot/all.jpg)
