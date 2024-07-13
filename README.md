@@ -1,6 +1,6 @@
 # PA-PC_202231506_WahyuJanuarAlfian_E
 # Penjelasan Project Akhir (UAS) Pengolahan Citra Digital (Geometric Citra)
-1. Fungsi untuk Menampilkan Gambar
+# 1. Fungsi untuk Menampilkan Gambar
 # Penjelasan Dari Menampilkan gambar:
   
     def show_images(images, titles):
@@ -22,12 +22,14 @@ Tujuan: Fungsi ini bertujuan untuk menampilkan beberapa gambar dalam satu figure
 3. Mengubah format gambar dari BGR (format default OpenCV) ke RGB agar warna ditampilkan dengan benar.
 4. Menampilkan setiap gambar dengan judul masing-masing dan tanpa sumbu.
 
-2. Membaca Gambar:
-Penjelasan Dari Kodingan:
+# 2. Membaca Gambar:
+- Penjelasan Dari Kodingan:
+- 
 image = cv2.imread('wahyu.jpg')
 • Tujuan: Membaca gambar dari file HAIDIRUMAR.jpg ke dalam variabel image .
-• Library yang Digunakan: OpenCV ( cv2
+• Library yang Digunakan: OpenCV (cv2)
 
+![App Screenshot](wahyu.jpg)
 
 
 
