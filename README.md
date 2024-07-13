@@ -10,6 +10,7 @@ Penjelasan Project Akhir (UAS) Pengolahan Citra Digital
             plt.title(titles[i])
             plt.axis('off')
         plt.show()
+
 - Parameter:
 1. images : Daftar gambar yang akan ditampilkan.
 2. titles : Daftar judul untuk setiap gambar.
@@ -20,6 +21,14 @@ Penjelasan Project Akhir (UAS) Pengolahan Citra Digital
 2. Menggunakan subplot untuk mengatur tata letak gambar dalam grid 2x3.
 3. Mengubah format gambar dari BGR (format default OpenCV) ke RGB agar warna ditampilkan dengan benar.
 4. Menampilkan setiap gambar dengan judul masing-masing dan tanpa sumbu.
+
+# 2. Membaca Gambar:
+- Penjelasan:
+
+image = cv2.imread('wahyu.jpg')
+
+- Tujuan: Membaca gambar dari file HAIDIRUMAR.jpg ke dalam variabel image .
+- Library yang Digunakan: OpenCV ( cv2 ).
 
 
 
