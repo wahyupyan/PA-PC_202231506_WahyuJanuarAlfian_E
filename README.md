@@ -1,7 +1,8 @@
 # PA-PC_202231506_WahyuJanuarAlfian_E
-Penjelasan Project Akhir (UAS) Geometrix Pengolahan Citra Digital
 
-# 1. Fungsi untuk Menampilkan Gambar
+## Penjelasan Project Akhir (UAS) Geometrix Pengolahan Citra Digital
+
+### 1. Fungsi untuk Menampilkan Gambar
 - Penjelasan Dari Menampilkan gambar:
 
     def show_images(images, titles):
@@ -24,7 +25,7 @@ Penjelasan Project Akhir (UAS) Geometrix Pengolahan Citra Digital
 3. Mengubah format gambar dari BGR (format default OpenCV) ke RGB agar warna ditampilkan dengan benar.
 4. Menampilkan setiap gambar dengan judul masing-masing dan tanpa sumbu.
 
-# 2. Membaca Gambar:
+### 2. Membaca Gambar:
 - Penjelasan:
 
 image = cv2.imread('wahyu.jpg')
@@ -35,7 +36,7 @@ image = cv2.imread('wahyu.jpg')
 ![App Screenshot](wahyu.jpg)
 
 
-# 3. Menyimpan Citra Asli:
+### 3. Menyimpan Citra Asli:
 - Penjelasan:
 
 original = image.copy()
@@ -44,7 +45,7 @@ original = image.copy()
 
 ![App Screenshot](.screenshoot/original.jpg)
 
-# 4. Rotasi Gambar:
+### 4. Rotasi Gambar:
 - Penjelasan:
 
 (h, w) = original.shape[:2]
@@ -62,7 +63,7 @@ rotated = cv2.warpAffine(original, matrix, (w, h))
 ![App Screenshot](.screenshoot/rotated.jpg)
 
 
-# 5. Mengubah Ukuran Gambar:
+### 5. Mengubah Ukuran Gambar:
 Penjelasan:
 
 resized = cv2.resize(original, (int(w * 0.2), int(h * 0.4)))
@@ -72,7 +73,7 @@ resized = cv2.resize(original, (int(w * 0.2), int(h * 0.4)))
 
 ![App Screenshot](.screenshoot/resize.jpg)
 
-# 6. Memotong Gambar:
+### 6. Memotong Gambar:
 Penjelasan:
 
 cropped = original[int(h * 0.20):int(h * 0.80), int(w * 0.20):int(w * 0.80)]
@@ -81,7 +82,7 @@ cropped = original[int(h * 0.20):int(h * 0.80), int(w * 0.20):int(w * 0.80)]
 
 ![App Screenshot](.screenshoot/cropped.jpg)
 
-# 7. Membalik Gambar:
+### 7. Membalik Gambar:
 Penjelasan Kodingan:
 
 flipped = cv2.flip(original, 1)
@@ -90,7 +91,7 @@ flipped = cv2.flip(original, 1)
 
 ![App Screenshot](.screenshoot/flip.jpg)
 
-# 8. Mentranslasi Gambar:
+### 8. Mentranslasi Gambar:
 Penjelasan Kodingan:
 
 tx, ty = 100, 50 # Translation distances
@@ -106,7 +107,7 @@ translated = cv2.warpAffine(original, translation_matrix, (w, h))
 ![App Screenshot](.screenshoot/translated.jpg)
 
 
-# 9. Menampilkan Semua Gambar:
+### 9. Menampilkan Semua Gambar:
 Penjelasan Kodingan:
 
 images = [original, rotated, resized, cropped, flipped, translated]
