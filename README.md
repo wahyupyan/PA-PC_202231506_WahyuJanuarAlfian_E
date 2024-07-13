@@ -1,7 +1,7 @@
-# PA-PC_202231506_WahyuJanuarAlfian_E
-Penjelasan Project Akhir (UAS) Pengolahan Citra Digital (Geometric Citra)
+## PA-PC_202231506_WahyuJanuarAlfian_E
+# Penjelasan Project Akhir (UAS) Pengolahan Citra Digital (Geometric Citra)
 # 1. Fungsi untuk Menampilkan Gambar
-# Penjelasan Dari Menampilkan gambar:
+Penjelasan Dari Menampilkan gambar:
     def show_images(images, titles):
         plt.figure(figsize=(20, 20))
         for i in range(len(images)):
